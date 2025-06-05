@@ -1,0 +1,46 @@
+ .parent p{
+            font-family:cursive ;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            text-decoration: line-through;
+            text-shadow: 0cqmin;
+        }
+ p:hover{
+            color:rgb(80, 64, 64);
+            background-color: rgb(99, 75, 75);
+        }
+.border{
+           border:2px solid rgb(94, 3, 3);
+           border-radius: 50Px;
+           padding-left: 20px;
+           padding-right: 10px;
+           background-color: aqua;
+
+
+        }
+.margin{
+    border: 3px solid rgb(129, 20, 38);
+    margin-left: 50px;
+    padding: 10px 50px 5px 30px;
+}
+.position{
+    border: 10px solid rgb(129, 20, 38);
+   
+}
+.relative{
+    position: absolute;
+    top: 130px;
+    bottom:80px;
+}
+.page{
+    height:100vh;
+}
+.fixed{
+    position: fixed;
+    left: 150px;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+    left: 120px;
+}
