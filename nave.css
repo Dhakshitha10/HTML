@@ -1,0 +1,32 @@
+ /*p:hover{
+            color:rgb(0, 183, 255);
+            background-color: rgb(0, 0, 0);
+ }
+ .flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(0, 173, 253) ;
+    border: 2px solid black;
+    padding: 15px;
+    align-items: center;
+    height: 100vh;
+}
+.flex-container div{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 300px;
+    color: aliceblue;
+}
+.two{
+    /*flex-grow: 2;
+    flex-shrink: 0;
+    color: aliceblue;
+}*/
+.nav{
+    display: flex;
+    justify-content:space-evenly ;
+}
+li{
+    list-style: none;
+}
